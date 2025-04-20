@@ -22,7 +22,8 @@ header {
     background-color: rgb(63, 70, 78);
 }
 header > h1 {
-    font-size: 10vw;
+    font-size:calc(1em + 3vw)  ;
+    
     padding-top: 50px;
     font-family: 'Playfair Display';
     font-variant: small-caps;
@@ -50,6 +51,10 @@ section {
     font-size: 24px;
     padding-left: 40px;
     font-size: 36px;
+}
+
+section p {
+    font-size: 3vw;
 }
 
 
