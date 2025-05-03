@@ -18,14 +18,25 @@ html {
 header h1 {
     margin-left: 60px;
     margin-bottom: -10px;
+    padding-bottom: 30px;
 }
 
 menu {
     display: none;
 }
 
-
+h2 {
+    padding-bottom: 10px;
+}
 
 li {
     list-style: none;
+}
+article {
+    width: 100%;
+}
+article::after {
+    margin-top: 20px;
+    font-size: 20px;
+    content:'Esse arquivo é um teste de Media Query para print' ;
 }
