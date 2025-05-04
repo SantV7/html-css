@@ -1,3 +1,11 @@
 @charset "UTF=8";
 
-/* Aparelho na horizontal (Landscape) */
+/* Device on horizontal (Landscape) */
+
+
+body {
+    background-image: url(../img/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
