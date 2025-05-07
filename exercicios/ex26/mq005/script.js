@@ -6,3 +6,11 @@ function clickMenu() {
 
     }
 }
+ function mudouTamanho() {
+    if (window.innerWidth >=  880) {
+        itens.style.display = 'block'
+    } else {
+        itens.style.display = 'none'
+    }
+
+ }
