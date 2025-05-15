@@ -5,23 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
     <style>
-        body {
-            background-color: #262626;
-        }
-
-
-        
         .conteiner {  
             display: flex;  
-            flex-direction: row;
-            flex-wrap: wrap;
+            flex-flow: column wrap;
+            height: 200px;
             background-color: gray;     
         }
+
         .item {
             text-align: center;  
-            flex-wrap: wrap;
-            border: 1px solid rgb(240, 125, 17);
-            background-color: rgb(65, 65, 95);
+            flex:auto;
+            border: 1px solid rgb(19, 17, 16);
+            background-color: rgb(131, 131, 190);
         }
     </style>
 </head>
@@ -35,7 +30,5 @@
         <div class="item"> Exemplo de bloco F</div>
         <div class="item"> Exemplo de bloco G</div>
     </div>
-
-    
 </body>
 </html>
