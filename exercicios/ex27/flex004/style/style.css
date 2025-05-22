@@ -1,21 +1,27 @@
   @charset "UTF-8";
+    *{
+        color: white;
+        font-size: 23px;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+    .conteiner {  
+        display: flex;  
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center ;
+        background-color: gray;  
+        height: 300px;   
+        border-radius: 12px;
+     }
   
-    body {
-            background-color: #262626;
-        }
-
-
-        *{
-            color: white;
-            font-size: 23px;
-        }
-        .conteiner {  
-            display: flex;  
-            background-color: gray;     
-        }
-        .item {
-            text-align: center;
-            flex: auto;
-            border: 1px solid rgb(240, 125, 17);
-            background-color: rgb(65, 65, 95);
-        }
+    .item {
+        text-align: center;
+        border: 1px solid rgb(240, 125, 17);
+        background-color: rgb(65, 65, 95);
+    } 
