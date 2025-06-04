@@ -12,15 +12,39 @@ body {
 }
 
 header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     background-color: darkgray;
     color: white;
 }
 header h1 {
+    flex: 0 0 200px;
     border: 1px dotted black;
 }
 header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
     border: 1px dashed rgb(19, 38, 148);
+}
+header > nav > a {
+    border: 1px solid rgba(255, 255, 255, 0.645);
+    border-radius: 4px;
+    padding: 7px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(55, 47, 173);
+}
+header > nav > a:hover {
+    border: 1px solid white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.468);
+    background-color: rgb(154, 159, 226);
+    transition: ease-in-out 0.3s;
 }
 
 main {
