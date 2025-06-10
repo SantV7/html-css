@@ -1,0 +1,27 @@
+  @charset "UTF-8";
+    *{
+        color: white;
+        font-size: 23px;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+    .conteiner {  
+        display: flex;  
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center ;
+        background-color: gray;  
+        height: 300px;   
+        border-radius: 12px;
+     }
+  
+    .item {
+        text-align: center;
+        border: 1px solid rgb(240, 125, 17);
+        background-color: rgb(65, 65, 95);
+    } 

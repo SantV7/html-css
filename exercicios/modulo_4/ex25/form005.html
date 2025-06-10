@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex de Formulário</title>
+    <style>
+        body {
+            background-color: rgb(36, 35, 35);
+        }
+        fieldset {
+            margin-top: 20px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.548) ;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 1px solid rgb(76, 72, 72);
+            height: 160px;
+            width: 340px;
+            padding: 10px;
+            background-color: rgb(83, 78, 78);
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 20%);
+        }
+        fieldset:hover {
+            transition: 0.7s;
+            background-color: rgb(112, 108, 108);
+            border-radius: 14px;
+        }
+
+        fieldset> input {
+            margin-left: 20px;
+        }
+
+        legend {
+            text-align: center;
+            font-size: 21px;
+            color: white;
+        }
+        .ft {
+            color:white;
+            margin-top: -14px;
+            margin-left: 10px;
+            padding: 10px;
+        }
+        form > p {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+      
+       
+      
+    </style>
+</head>
+<body>
+    <form autocomplete="off" method="get" action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas">
+            <label for="isxmas">Masculino</label>
+            <br>
+            <input type="radio" name="sexo" id="isxfem">
+            <label for="isxfem">Feminino</label>
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Séries Favoritas</legend>
+            <input type="checkbox" name="slupin" id="selupin">
+            <label for="selupin">Lupin</label><br>
+
+            <input type="checkbox" name="salinbo" id="sealinbo">
+            <label for="sealinbo">Alice in Borderland</label><br>
+
+            <input type="checkbox" name="stopboy" id="setopboy">
+            <label for="setopboy">Top Boy</label><br>
+
+            <input type="checkbox" name="snaruto" id="senaruto">
+            <label for="senaruto">Naruto</label><br>
+
+            <input type="checkbox" name="sfireforce" id="sefireforce">
+            <label for="sefireforce">Fire Force</label>
+<br>
+            <input type="checkbox" name="syou" id="seyou">
+            <label for="seyou">You</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Cor Favorita</legend>
+            <input type="radio" name="cor" id="gray">
+            <label for="gray">Cinza</label><br>
+
+            <input type="radio" name="cor" id="yellow">
+            <label for="yellow">Amarelo</label><br>
+
+            <input type="radio" name="cor" id="blue">
+            <label for="blue">Azul</label><br>
+
+            <input type="radio" name="cor" id="red">
+            <label for="red">Vermelho</label><br>
+
+            <input type="radio" name="cor" id="green">
+            <label for="green">Verde</label><br>
+
+            <input type="radio" name="cor" id="orange">
+            <label for="orange">Laranja</label>
+        </fieldset>
+
+        <fieldset>
+            <legend> O que você é ?</legend>
+            <input  type="radio" name="area" id="front">
+                <label for="front">Front-End</label>
+                <br>
+                <input  type="radio" name="area" id="back">
+                <label for="back">Back-End</label><br>
+                <input  type="radio" name="area" id="full">
+                <label for="full">Full-Stack</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tempo livre</legend>
+            <p class="ft">O que gosta de fazer no tempo livre </p>
+            <input type="checkbox" name="ftread" id="ftmread">
+            <label for="ftmread">Ler livros</label>
+
+            <input type="checkbox" name="ftwatch" id="ftmwatch">
+            <label for="ftmwatch">Ver séries</label>
+
+            <input type="checkbox" name="ftcook" id="ftmcook">
+            <label for="ftmcook">Cozinhar</label>
+
+            <input type="checkbox" name="ftsleep" id="ftmsleep">
+            <label for="ftmsleep">Dormir</label>
+
+            <input type="checkbox" name="ftplay" id="ftmplay">
+            <label for="ftmplay">Jogar</label>
+
+            <input type="checkbox" name="ftprog" id="ftmprog">
+            <label for="ftmprog">Programar</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>

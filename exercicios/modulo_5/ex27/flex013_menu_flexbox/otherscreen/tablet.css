@@ -1,0 +1,39 @@
+@media screen and (min-width: 740px) and (max-width: 940px) {
+     
+    header{
+        background-color: rgb(63, 61, 61);
+        margin-top: -14px;
+        display: auto;
+        flex-flow: column nowrap;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.192);
+    }
+    header h1 {
+        font-family: monospace;
+        font-size: 34px;
+        padding: 4px;
+        margin-bottom: -150px;
+    }
+    header> nav > a {
+        font-size: 18px;
+        color: black;
+        width: 110px;
+        background-color: orange;
+    
+    }
+    header> nav > a:hover {
+        transition: ease 0.2s;
+        border-radius: 10px;
+        text-shadow: 0px 0px 0px;
+        background-color: rgb(196, 133, 16);
+        font-weight: 550;
+
+    }
+    main {
+        margin: 15px auto;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.596);
+        background-color: rgb(202, 202, 224);
+        width: 755px;
+    
+    }
+
+}
